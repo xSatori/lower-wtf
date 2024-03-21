@@ -116,7 +116,7 @@ export default function Home() {
 
       </div>
 
-      <Link href='/buy' className='z-10 cursor-pointer rounded px-4 py-2 bg-black font-semibold
+      <Link href='/sell' className='z-10 cursor-pointer rounded px-4 py-2 bg-black font-semibold
         bg-opacity-20 hover:bg-opacity-40 ease-in-out transition-all duration-300'>
           Sell
       </Link>
