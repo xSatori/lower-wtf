@@ -118,7 +118,7 @@ export default function Home() {
 
       <Link href='/buy' className='z-10 cursor-pointer rounded px-4 py-2 bg-black font-semibold
         bg-opacity-20 hover:bg-opacity-40 ease-in-out transition-all duration-300'>
-          Buy
+          Sell
       </Link>
 
       <div className='z-10 opacity-70 mt-4 text-sm flex flex-col items-center'>
@@ -132,7 +132,7 @@ export default function Home() {
         {
           [...Array(numArrows).keys()].map((i) => (
             <div key={i.toString()} className="arrow text-[#48ad4d]" style={{left: `${i / numArrows * 100}%`, animationDelay: `${animationDelay(i).toFixed(2)}s`}}>
-              ↑
+              ↓
             </div>
           ))
         }
