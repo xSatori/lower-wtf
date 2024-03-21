@@ -12,12 +12,12 @@
 
 .arrow {
   position: absolute;
-  animation: moveUp 10s linear infinite;
+  animation: moveDown 10s linear infinite;
   font-size: 24px; /* Adjust font size as needed */
   top: -50%
 }
 
-@keyframes moveUp {
+@keyframes moveDown {
   0% {
     top: 100%;
   }
