@@ -124,7 +124,7 @@ export default function Home() {
       <div className='z-10 opacity-70 mt-4 text-sm flex flex-col items-center'>
         <div>100% going to 0</div>
         <div>30% to lower/ETH LP, 15% to lower/higher LP, 45% airdrop to LP contributors,</div>
-        <div>4% to ↑higher holders, 4% for future liquidity, 2% for the team</div> 
+        <div>4% to ↑higher holders, 4% for future liquidity, 2% for early contributors</div> 
       </div>
 
 
